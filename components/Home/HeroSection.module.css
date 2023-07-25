@@ -1,0 +1,37 @@
+.homeHero {
+  height: auto;
+  padding-top: 26%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media all and (min-width: 1441px) {
+  .homeHero {
+    background-image: url("/assets/banners/hm-herox1920.png");
+  }
+}
+
+@media all and (max-width: 1440px) {
+  .homeHero {
+    background-image: url("/assets/banners/hm-herox1400.png");
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .homeHero {
+    background-image: url("/assets/banners/hm-herox1024.png");
+  }
+}
+
+@media all and (max-width: 768px) {
+  .homeHero {
+    background-image: url("/assets/banners/hm-herox768.png");
+  }
+}
+
+@media all and (max-width: 576px) {
+  .homeHero {
+    background-image: url("/assets/banners/hm-herox576.png");
+  }
+}

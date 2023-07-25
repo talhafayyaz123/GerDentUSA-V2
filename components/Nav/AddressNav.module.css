@@ -1,0 +1,7 @@
+.deliverAddressWrapper {
+    width: 400px;
+    max-width: 90vw;
+}
+.cancel::after {
+    background-color: #ad1818;
+}

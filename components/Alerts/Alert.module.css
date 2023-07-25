@@ -1,0 +1,12 @@
+.success {
+    background-color: rgba(24, 177, 106, 0.8);
+}
+
+.danger,
+.error {
+    background-color: rgba(242, 93, 82, 0.8);
+}
+
+.info {
+    background-color: rgba(82, 159, 242, 0.8);
+}

@@ -1,0 +1,18 @@
+.product {
+    width: 100%;
+}
+
+.phoneBtn{
+    background-color: #2c60bd !important;
+    color: white !important;
+}
+
+
+.chatBtn{
+    background: #c62132;
+    color: #ffff;
+}
+
+.image {
+    width: 30px
+}

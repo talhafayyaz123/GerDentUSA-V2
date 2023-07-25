@@ -1,0 +1,10 @@
+.popUpImg,
+.enlargedImg {
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+.popUpImg img {
+    width: 100% !important;
+}
+

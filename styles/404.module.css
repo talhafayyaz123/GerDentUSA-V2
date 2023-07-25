@@ -1,0 +1,32 @@
+.errorPage,
+.waveMask {
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to bottom, #dbe5ef, #e1e9f1, #e8ecf3, #edf0f4, #f3f4f6);
+}
+
+.errorPage h1{
+	font-size: 13rem;
+}
+
+.errorPage h1 span{
+	display: inline-block;
+}
+
+.errorBtnWrapper button.primary-blue-bg::after {
+	background-color: #52a0f2;
+}
+
+@media all and (max-width: 1024px) {
+
+	.errorPage h1{
+	    font-size: 10rem;
+    }
+}
+
+@media all and (max-width: 640px) {
+
+	.errorPage h1{
+	    font-size: 6rem;
+    }
+}

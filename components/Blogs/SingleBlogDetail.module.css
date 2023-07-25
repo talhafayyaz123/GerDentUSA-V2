@@ -1,0 +1,45 @@
+.detail{
+    color: black;
+}
+.detail > p:first-of-type {
+    margin-top: 16px;
+}
+.detail > p {
+    margin-bottom: 16px;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+.detail > p > strong{
+    font-weight: bolder;
+}
+
+.detail > h2 > strong{
+    font-weight: bolder;
+    font-size: 1.875rem;
+    line-height: 1.375;
+}
+.detail > h3 {
+    padding-bottom: 0.25rem;
+}
+.detail > h3 > strong{
+    font-weight: bolder;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    line-height: 1.375;
+}
+.recentBlog .imgWrapper {
+    transition: all 0.3s ease-in-out;
+}
+.recentBlog:hover .imgWrapper {
+    transform: scale(1.05);
+}
+
+
+.post {
+    width: 100%;
+}
+
+
+.relatedPost{
+    padding-top: 23px;
+}

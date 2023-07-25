@@ -1,0 +1,19 @@
+.productDetail > p > strong{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    color: black;
+}
+
+.productDetail > p{
+    --tw-text-opacity: 1;
+    color: rgba(75,85,99,var(--tw-text-opacity));
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin-top: 1rem;
+}
+.productDetail > p >  iframe {
+    width: 500px;
+    height: 250px;
+    max-width: 85vw;
+}

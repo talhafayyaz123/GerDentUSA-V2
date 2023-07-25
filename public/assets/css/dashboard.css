@@ -1,0 +1,32 @@
+.active-db {
+    background-color: #52a0f2;
+    color: #fff;
+}
+
+.db-links {
+    transition: all 0.3s ease-in-out;
+}
+
+.db-links:hover {
+    background-color: #dbe5ef;
+}
+
+button.bg-red-600::after {
+    background-color: #ad1818;
+}
+
+.alert-message.error {
+    background: #b60000b8;
+}
+
+@media all and (max-width: 1024px) {
+    .table-heading-container {
+        min-width: 925px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .table-heading-container {
+        min-width: 600px;
+    }
+}

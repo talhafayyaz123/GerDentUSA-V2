@@ -1,0 +1,17 @@
+.download_img_wrapper {
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.download_img_wrapper:hover {
+    box-shadow: -2px 0 5px 4px rgba(0, 0, 0, 0.175);
+    -webkit-box-shadow: -2px 0 5px 4px rgba(0, 0, 0, 0.175);
+    -moz-box-shadow: -2px 0 5px 4px rgba(0, 0, 0, 0.175);
+    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+}
